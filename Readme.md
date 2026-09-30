@@ -1,5 +1,11 @@
 # 🔐 Déploiement WireGuard -- Homelab 
 
+> **En bref**
+> - **Contexte :** permettre le télétravail en accédant au réseau interne depuis l'extérieur, sans exposer le LAN.
+> - **Ce que j'ai fait :** VPN WireGuard sur pfSense, redirection du port UDP 51820 sur la box, règles de pare-feu, accès limité au LAN, configuration du poste client.
+> - **Résultat :** accès distant chiffré au LAN et connexion RDP à un serveur, sans aucun port du LAN exposé.
+> - **Compétences :** WireGuard, pfSense, NAT, pare-feu, VPN.
+
 ## 🎯 Objectif
 
 Mettre en place un accès distant sécurisé permettant :
